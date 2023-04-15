@@ -22,13 +22,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -38,21 +38,21 @@
 
     <!-- Home -->
     <section id="home" class="home container">
-      <div class="row d-flex align-items-center">
-        <div class="col-7">
+      <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+        <div class="col-12 col-md-7">
           <h3 class="fw-semibold">Hi I Am</h3>
           <h1 class="fw-bold">Robi</h1>
           <p>I am Programmer Based In indonesia</p>
           <a class="btn" href="#" download>Resume</a>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-md-5 d-flex justify-content-md-end justify-content-center">
           <img id="me" src="gambar/me2.png" alt="foto" />
         </div>
       </div>
-      <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-        <a class="text-decoration-none text-dark" href="#about">More Info</a>
+      <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+        <div class="text-dark">More Info</div>
         <img id="arrow" class="mt-2" src="gambar/arrow.svg" alt="panah" />
-      </div>
+      </a>
     </section>
     <!-- Home -->
     <!-- ABOUT -->
@@ -108,13 +108,13 @@
     <!-- WORK -->
     <section id="work" class="work container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-5">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione at aspernatur, similique repellendus cum obcaecati necessitatibus, ullam odio minima iure minus inventore, nobis hic dolorum sed. Debitis voluptas quo, veniam
             repellat est odit assumenda, ea beatae facilis aliquam maxime ab magnam. Provident iste esse officiis deserunt laborum repellendus, architecto placeat?
           </p>
         </div>
-        <div class="col work-img">
+        <div class="col-12 col-6 work-img">
           <div id="work-1" class="work-img-item">
             <img src="gambar/work-1.png" alt="work 1" />
           </div>
@@ -131,23 +131,23 @@
     <!-- CONTACT -->
     <section id="contact" class="contact container">
       <div class="row d-flex align-items-center gap-5">
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, aperiam officiis. Voluptatem ea quas repudiandae dolorem quo optio excepturi aperiam tenetur. Reiciendis culpa dolor veritatis sit, qui voluptatem eveniet
             cupiditate iure sed sunt ipsum enim quas dolore amet dolores facilis.
           </p>
           <div class="row">
             <div class="col d-flex align-items-center">
-              <img src="gambar/Facebook.svg" alt="fb icon" />
-              <p></p>
+              <img class="w-25" src="gambar/Facebook.svg" alt="fb icon" />
+              <p class="mb-0 ms-2"></p>
             </div>
             <div class="col d-flex align-items-center">
-              <img src="gambar/Instagram.svg" alt="ig icon" />
-              <p>@xenrobi</p>
+              <img class="w-25" src="gambar/Instagram.svg" alt="ig icon" />
+              <p class="mb-0 ms-2">@xenrobi</p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-6">
           <form class="contact-form" onsubmit="onFormSubmit(event)">
             <div class="mb-3">
               <label for="inp_email" class="form-label">Email address</label>
