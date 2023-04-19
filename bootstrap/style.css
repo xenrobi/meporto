@@ -116,7 +116,7 @@ section::before {
 }
 
 #work-1:hover::after {
-  content: 'Mobile Project';
+  content: 'Mobile Programmer';
 }
 
 #work-2 {
@@ -125,7 +125,7 @@ section::before {
 }
 
 #work-2:hover::after {
-  content: 'Github LInk';
+  content: 'Web Programmer';
 }
 
 #work-3 {
@@ -133,7 +133,7 @@ section::before {
 }
 
 #work-3:hover::after {
-  content: 'Web Project';
+  content: 'Database';
 }
 
 .contact {
